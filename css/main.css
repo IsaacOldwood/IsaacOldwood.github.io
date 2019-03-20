@@ -18,12 +18,13 @@
 }
 
 .navy-band{
-    background-color: navy;
+    position: fixed;
     left: 0;
-    top: 0;
+    bottom: 0;
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    background-color: navy;
+    color: white;
+    text-align: center;
 }
 
 .footer {
