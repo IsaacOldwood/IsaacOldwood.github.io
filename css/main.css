@@ -1,12 +1,12 @@
 .homepage-title{
-    font-size: 25px;
+    font-size: 23px;
     color: white;
     vertical-align: center;
     text-align: center;
 }
 
 .homepage-header{
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Calibri', sans-serif;
     color: white;
     width: 100%;
@@ -39,7 +39,7 @@ img.footer-logo{
 
 body{
     font-family: 'Calibri', sans-serif;
-    background-color: grey;
+    background-color: whitesmoke;
     color: black;
 }
 
