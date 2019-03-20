@@ -19,10 +19,22 @@
 
 .navy-band{
     background-color: navy;
+    left: 0;
+    top: 0;
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    text-align: center;
+  }
 
 .header-logo{
     vertical-align: middle;
