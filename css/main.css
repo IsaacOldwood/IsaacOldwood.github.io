@@ -1,3 +1,9 @@
+.homepage-title{
+    font-size: 55px;
+    color: white;
+    vertical-align: center;
+    text-align: center;
+}
 
 .homepage-header{
     font-size: 35px;
@@ -7,6 +13,12 @@
     background: navy;
     vertical-align: middle;
     position: relative;
+    margin:0 auto;
+}
+
+.navy-band{
+    background: navy;
+    width: 100%;
 }
 
 .header-logo{
@@ -20,12 +32,7 @@ img.footer-logo{
     margin-right: auto
 }
 
-.homepage-title{
-    font-size: 55px;
-    color: black;
-    vertical-align: center;
-    text-align: center;
-}
+
 
 body{
     font-family: 'Calibri', sans-serif;
