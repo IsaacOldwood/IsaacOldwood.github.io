@@ -50,11 +50,16 @@ body{
 }
 
 .centring-container{
-    max-width: 500px;
+    max-width: 960px;
     margin: auto;
 }
 
 .intro-section{
     color: black;
     font-family: 'Calibri', sans-serif;
+}
+
+.CV-title{
+    text-align: center;
+    vertical-align: center;
 }
