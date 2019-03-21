@@ -54,9 +54,16 @@ body{
     margin: auto;
 }
 
-.intro-section{
+.homepage-intro{
     color: black;
     font-family: 'Calibri', sans-serif;
+    text-align: center;
+}
+
+.homepage-reviews{
+    color: black;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
 }
 
 .CV-title{
