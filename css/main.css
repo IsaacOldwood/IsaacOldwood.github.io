@@ -13,6 +13,13 @@ body {
 
 .headshot {
     max-height: 500px;
+    height: auto;
+    width: auto;
+}
+
+.side-ad {
+    height: auto;
+    width: auto;
 }
 
 h1 {
@@ -49,4 +56,18 @@ p {
 
 .button-container {
     padding: 2px 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.center-column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.column {
+    flex: 20%;
+    padding: 5px;
 }
