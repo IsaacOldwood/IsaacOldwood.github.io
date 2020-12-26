@@ -86,6 +86,11 @@ p {
     max-width: 85%;
 }
 
+.LCM-title {
+    padding: 0px;
+    margin: 0px;
+}
+
 @media only screen and (max-device-width: 970px) {
     .row {
         flex-direction: column;
