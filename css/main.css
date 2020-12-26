@@ -121,6 +121,11 @@ p {
     .LCM {
         max-width: 90%;
     }
+
+    input {
+        box-sizing: border-box;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-device-width: 450px) {
