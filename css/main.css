@@ -73,25 +73,48 @@ p {
 }
 
 .center-column {
-    flex: 60%;
+    flex: 50%;
     padding: 5px;
 }
 
 .column {
-    flex: 20%;
+    flex: 25%;
     padding: 5px;
 }
 
+.LCM {
+    max-width: 85%;
+}
+
 @media only screen and (max-device-width: 970px) {
+    .row {
+        flex-direction: column;
+    }
+    
     .center-column {
-        flex: 100%;
+        order: 1;
         padding: 5px;
     }
     
     .column {
-        display: none;
-        flex: 0%;
+        order: 2;
         padding: 5px;
+    }
+
+    form {
+        font-size: 2em;
+    }
+
+    .LCMButton {
+        font-size: 1em;
+    }
+
+    .side-projects-title-2 {
+        display: none;
+    }
+
+    .LCM {
+        max-width: 90%;
     }
 }
 
