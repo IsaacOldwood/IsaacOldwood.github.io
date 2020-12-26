@@ -73,12 +73,12 @@ p {
 }
 
 .center-column {
-    flex: 80%;
+    flex: 60%;
     padding: 5px;
 }
 
 .column {
-    flex: 10%;
+    flex: 20%;
     padding: 5px;
 }
 
@@ -89,6 +89,7 @@ p {
     }
     
     .column {
+        display: none;
         flex: 0%;
         padding: 5px;
     }
@@ -104,4 +105,9 @@ p {
     .disclaimer {
         max-width: 60%;
     }
+}
+
+div.LCM {
+    border: 2px solid black;
+    padding: 5px;
 }

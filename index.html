@@ -22,17 +22,60 @@
 		<meta name = "keywords" content = "Local, Small Buisness, Huntingdon, Website, Developer" />
         <meta name = "description" content = "My website all about me as a developer" />
         <meta name = "revised" content = "IsaacOldwood, 17/12/2020" />
-        <meta name = "author" content = "Isaac Oldwood" />
+		<meta name = "author" content = "Isaac Oldwood" />
+		<script>
+			// GCD Script.
+			function GCD(x,y) {
+				if (!y) {
+					return x;
+				}
+
+				return GCD(y, x % y)
+			}
+			// LCM Script.
+			function LCM() {
+				var output =  document.getElementById('LCMOutput')
+				var num1 = document.getElementById('num1').value;
+				var num2 = document.getElementById('num2').value;
+
+				if (num1.length != 0 && num2 != 0) {
+					var outputHTML;
+					outputHTML = ( (num1 * num2) / GCD(num1,num2) ) + "<br>";
+					output.innerHTML = outputHTML;
+					output.style.color = "green"
+				} else {
+					outputHTML = "Please enter two numbers"
+					output.style.fontSize = "1em";
+					output.innerHTML = outputHTML;
+					output.style.color = "red"
+				}
+			}
+		</script>
 	</head>
 	<body>
-		<div class="centering-container">
-			<h1>Isaac Oldwood</h1>
-		</div>
 		<div class="centering-container row">
 			<div class="column">
-				<!--<img src="testAd(200x600).png" class="side-ad">-->
-			  </div>
-			  <div class="center-column">
+				<div class="centering-container">
+					<h2><u>Side Projects</u></h2>
+				</div>
+				<div class="centering-container LCM">
+					<u>LCM</u><br><br>
+					Calculate the Lowest Common Multiple (LCM)<br>
+					<br>
+					<form class="LCM-form">
+						<label for="num1">Number: </label>
+						<input id="num1" name="num1" size="3"><br>
+						<label for="num2">Number: </label>
+						<input id="num2" name="num2" size="3"><br><br>
+						<button type="button" class="LCMButton" onclick="LCM()">Calculate</button>
+					</form>
+					<p id="LCMOutput">ANSWER</p>
+				</div>
+			</div>
+			<div class="center-column">
+				<div class="centering-container">
+					<h1>Isaac Oldwood</h1>
+				</div>
 				<img src="headshot.jpg" class="headshot">
 				<div class="centering-container">
 					<p>I design and make websites for local buisnesses<br>As well as help with general business IT</p>
@@ -63,12 +106,12 @@
 					<br>
 					<a href="https://plattershuntingdon.github.io/">www.PlattersHuntingdon.com</a>
 				</div>
-			  </div>
-			  <div class="column">
-				<!--<img src="testAd(200x600).png" class="side-ad">-->
-			  </div>
+			</div>
+			<div class="column">
+				<div class="centering-container">
+					<h2><u>Side Projects</u></h2>
+				</div>
 			</div>
 		</div>
-		
 	</body>
 </html>
