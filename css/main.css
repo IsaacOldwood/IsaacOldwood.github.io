@@ -123,8 +123,7 @@ p {
     }
 
     input {
-        box-sizing: border-box;
-        padding: 10px;
+        font-size: 1em;
     }
 }
 
