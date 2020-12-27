@@ -91,6 +91,15 @@ p {
     margin: 0px;
 }
 
+.my-work {
+    font-size: 1.3em;
+}
+
+p.my-work {
+    font-size: 1.1em;
+    margin: 5px 60px 20px 60px;
+}
+
 @media only screen and (max-device-width: 970px) {
     .row {
         flex-direction: column;
@@ -101,10 +110,16 @@ p {
         padding: 5px;
     }
     
-    .column {
+    .right-column{
         order: 2;
         padding: 5px;
     }
+
+    .left-column{
+        order: 3;
+        padding: 5px;
+    }
+
 
     form {
         font-size: 2em;
@@ -124,6 +139,15 @@ p {
 
     input {
         font-size: 1em;
+    }
+
+    .my-work {
+        font-size: 1.1em;
+    }
+    
+    p.my-work {
+        font-size: 0.9em;
+        margin: 5px 60px 20px 60px;
     }
 }
 
