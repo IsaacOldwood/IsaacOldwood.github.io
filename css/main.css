@@ -100,7 +100,7 @@ p.my-work {
     margin: 5px 60px 20px 60px;
 }
 
-div.bots {
+div.bots , div.LCM {
     border: 2px solid black;
     max-width: 85%;
     margin-top: 35px;
@@ -159,7 +159,7 @@ img.RLE {
         display: none;
     }
 
-    .LCM {
+    div.LCM , div.bots {
         max-width: 90%;
     }
 
@@ -187,9 +187,4 @@ img.RLE {
     .disclaimer {
         max-width: 60%;
     }
-}
-
-div.LCM {
-    border: 2px solid black;
-    padding: 5px;
 }
