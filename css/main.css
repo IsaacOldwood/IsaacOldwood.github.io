@@ -113,16 +113,10 @@ a.bots {
     margin: 0px;
 }
 
-p.bots {
+p.bots , p.LCM {
     font-size: 1.1em;
     padding: 0px 10px;
-    margin: 5px 0px;
-}
-
-p.LCM {
-    font-size: 1.1em;
-    padding: 0px 10px;
-    margin: 10px 0px;
+    margin: 7px 0px;
 }
 
 img.RLE {
@@ -148,7 +142,6 @@ img.RLE {
         order: 3;
         padding: 5px;
     }
-
 
     form {
         font-size: 2em;
@@ -177,6 +170,12 @@ img.RLE {
     p.my-work {
         font-size: 0.9em;
         margin: 5px 60px 20px 60px;
+    }
+
+    p.bots {
+        font-size: 1.1em;
+        padding: 0px 10px 8px 10px;
+        margin: 10px 0px;
     }
 }
 
